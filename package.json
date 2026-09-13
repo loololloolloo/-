@@ -1,0 +1,20 @@
+{
+  "name": "fortnite-2d",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A 2D pixel-art reinterpretation of Fortnite",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "tsc --noEmit"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.0"
+  }
+}
